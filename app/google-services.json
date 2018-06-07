@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "854128446250",
+    "firebase_url": "https://nitj-companion-24386.firebaseio.com",
+    "project_id": "nitj-companion-24386",
+    "storage_bucket": "nitj-companion-24386.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854128446250:android:327d48989a1ba85d",
+        "android_client_info": {
+          "package_name": "com.warkahot.nitjcompanion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854128446250-g8v728dnrlq53dpj8jamotlcocosn76s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.warkahot.nitjcompanion",
+            "certificate_hash": "21609B9E0FED780DB799D700379421CB3C53DD21"
+          }
+        },
+        {
+          "client_id": "854128446250-7plghac8eb1qcthgmbmrjrsa4m3js3tq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrD2n4xW_0ktGUZGzoVk6_KNDStcLloqs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854128446250-7plghac8eb1qcthgmbmrjrsa4m3js3tq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

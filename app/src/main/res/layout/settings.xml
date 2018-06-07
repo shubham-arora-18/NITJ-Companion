@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toggle="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/events_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#044f95"
+        android:fitsSystemWindows="true"
+        app:titleTextColor="@color/white"
+        app:theme="@style/ToolbarColoredBackArrow"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingLeft="6sp"
+        android:layout_marginTop="5sp"
+        android:id="@+id/settings"
+        android:textSize="16sp"
+        android:textColor="#505050"
+        android:shadowColor="#ffffff"
+        android:text = "Notifications"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5sp"
+        android:layout_marginTop="5sp"
+        android:background="#aaaaaa"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10sp"
+        android:shadowColor="#ffffff"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingLeft="6sp"
+            android:layout_marginTop="5sp"
+            android:textSize="13sp"
+            android:textColor="#505050"
+            android:shadowColor="#ffffff"
+            android:text = "Articles Notifications"
+            android:layout_height="wrap_content" />
+
+        <com.zcw.togglebutton.ToggleButton
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            toggle:tbOnColor="#64ee64"
+            toggle:tbOffColor="#999999"
+            toggle:tbSpotColor="#ffffff"
+            toggle:tbOffBorderColor="#999999"
+            android:shadowColor="#ffffff"
+            toggle:tbBorderWidth="0.5dp"
+            android:id="@+id/articles_noti"
+
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="5sp"
+
+            >
+        </com.zcw.togglebutton.ToggleButton>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5sp"
+
+        android:layout_marginTop="12sp"
+        android:background="#aaaaaa"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10sp"
+        android:shadowColor="#ffffff"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingLeft="6sp"
+            android:layout_marginTop="5sp"
+            android:textSize="13sp"
+            android:shadowColor="#ffffff"
+            android:textColor="#505050"
+            android:text = "Placements Notifications"
+            android:layout_height="wrap_content" />
+
+        <com.zcw.togglebutton.ToggleButton
+            android:layout_width="35dp"
+            toggle:tbOnColor="#64ee64"
+            toggle:tbOffColor="#999999"
+            toggle:tbSpotColor="#ffffff"
+            toggle:tbOffBorderColor="#999999"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="5sp"
+            android:shadowColor="#ffffff"
+            toggle:tbBorderWidth="0.5dp"
+            android:layout_height="20dp"
+            android:id="@+id/placements_noti">
+        </com.zcw.togglebutton.ToggleButton>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10sp"
+        android:shadowColor="#ffffff"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.4sp"
+            android:layout_alignParentTop="true"
+            android:shadowColor="#ffffff"
+            android:background="#aaaaaa"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingLeft="6sp"
+            android:layout_marginTop="15sp"
+            android:textSize="13sp"
+            android:textColor="#505050"
+            android:text = "Events Notifications"
+            android:layout_height="wrap_content" />
+
+        <com.zcw.togglebutton.ToggleButton
+            android:layout_width="35dp"
+            toggle:tbOnColor="#64ee64"
+            toggle:tbOffColor="#999999"
+            toggle:tbSpotColor="#ffffff"
+            toggle:tbOffBorderColor="#999999"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="15sp"
+            toggle:tbBorderWidth="0.5dp"
+            android:layout_height="20dp"
+            android:id="@+id/events_noti">
+        </com.zcw.togglebutton.ToggleButton>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingLeft="6sp"
+        android:layout_marginTop="15sp"
+        android:textSize="11sp"
+        android:textColor="#999999"
+        android:text = "Note - For Specific Society Notifications Subscribe that particular Society in the society menu. "
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5sp"
+        android:layout_marginTop="5sp"
+        android:background="#aaaaaa"/>
+
+
+</LinearLayout>

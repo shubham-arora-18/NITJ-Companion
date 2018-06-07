@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+
+    <style name="No_status_bar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimaryDark">#184677</item>
+    </style>
+
+    <style name="ToolbarColoredBackArrow" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorSecondary">#ffffff</item>
+    </style>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="titleTextColor">#ffffff</item>
+        <item name="colorPrimaryDark">#184677</item>
+        <item name="colorPrimary">#276db7</item>
+        <item name="colorAccent">#184677</item>
+    </style>
+</resources>

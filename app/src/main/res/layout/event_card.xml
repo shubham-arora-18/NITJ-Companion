@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Event_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardElevation="2.5dp"
+    android:layout_marginBottom="16dp">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:id = "@+id/event_card_rl"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/rel1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rajbhasha Samiti"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="30sp"
+                android:maxWidth="150sp"
+                android:textSize="20sp"
+                android:layout_alignParentLeft="true"
+                android:textColor="#2d2da4"
+                android:textStyle="bold|italic"
+                android:id="@+id/event_name"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:textAlignment="center"
+                android:layout_marginRight="30sp"
+                android:maxWidth="150sp"
+                android:layout_alignBaseline="@id/event_name"
+                android:text="**Special Event**"
+                android:textColor="#be3110"
+                android:textSize="12sp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="end"
+                android:textStyle="italic"
+                android:id="@+id/special_event"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/rel2"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rel1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp"
+                android:textSize="14sp"
+                android:clickable="true"
+                android:layout_marginTop="12sp"
+                android:textColor="#535353"
+                android:background="@android:color/transparent"
+                android:text="Why are you not working as you dsadsadare requireed to"
+                android:id="@+id/event_info"
+                android:textIsSelectable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"/>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_below="@+id/rel2"
+            android:gravity="bottom"
+            android:layout_marginTop="10sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/lin1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:layout_marginRight="1sp"
+                android:layout_marginLeft="0sp"
+                android:layout_marginBottom="0sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text="Time:"
+                    android:layout_marginLeft="0sp"
+                    android:textSize="13sp"
+                    android:textColor="#707c84"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Time put"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:textColor="#3b3b3b"
+                    android:textStyle="bold"
+                    android:id="@+id/time_put"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1.25"
+                android:gravity="left"
+                android:layout_marginRight="1sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text="Venue:"
+                    android:layout_marginLeft="0sp"
+                    android:textSize="13sp"
+                    android:textColor="#707c84"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Venue put"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:textColor="#3b3b3b"
+                    android:textStyle="bold"
+                    android:id="@+id/venue_put"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20sp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_marginBottom="0sp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date:"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="0sp"
+                    android:textSize="14sp"
+                    android:textColor="#707c84"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date put"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="0sp"
+                    android:layout_marginTop="0sp"
+                    android:textSize="12sp"
+                    android:textColor="#3b3b3b"
+                    android:textStyle="bold"
+                    android:id="@+id/date_put"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_below="@+id/lin1"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="5sp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="#707c84"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/organised_by"
+                android:text="Organised By:"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_marginTop="5sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/news_text2"
+                android:textStyle="bold|italic"
+                android:layout_marginBottom="5sp"
+                android:layout_below="@+id/organised_by"
+                android:layout_centerHorizontal="true"
+                android:text="Society_name"
+                android:id="@+id/society_name"
+                />
+
+            <ImageView
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="18sp"
+                android:layout_marginTop="10sp"
+                android:padding="5sp"
+                android:id="@+id/favourite"
+                android:src="@drawable/star_unselected"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
